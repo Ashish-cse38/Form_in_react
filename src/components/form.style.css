@@ -1,0 +1,31 @@
+form {
+	margin-top: 3rem;
+}
+
+form input[name="p_name"],
+form input[name="country"],
+form input[name="phone"], 
+form input[name="email"],
+form input[name="child"],
+form input[name="age"],
+form input[name="date"],
+form input[name="time"]
+{
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-bottom: 2px solid whitesmoke;
+	border-radius: 0;
+}
+
+.container input,
+.container ::-webkit-input-placeholder {
+	color: white !important;
+}
+
+.container input:focus {
+	background-color: transparent;
+	box-shadow: none !important;
+	borser: none;
+	border-bottom: 2px solid tomato;
+}
